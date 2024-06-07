@@ -10,8 +10,46 @@ import calculadora.Calculadora;
 public class Main {
     public static void main(String[] args) {
 
-        Calculadora calculadora = new Calculadora();
-        calculadora.somar(1,3);
+        // E e OU
+        // &&  Operador lógico E
+        // ||  Operador lógico OU
+
+
+        if( true && true){
+            System.out.println(" Verdadeiro e Verdadeiro = Verdadeiro");
+        }
+
+        if(true && false){
+            System.out.println(" Verdadeiro e Falso = Falso");
+        }
+
+        if(false && true){
+            System.out.println(" Falso e Verdadeiro = Falso");
+        }
+
+        if(false && false){
+            System.out.println(" Falso e Falso = Falso");
+        }
+
+
+
+        if( true || true){
+            System.out.println(" Verdadeiro ou Verdadeiro = Verdadeiro");
+        }
+
+        if(true || false){
+            System.out.println(" Verdadeiro ou Falso = Verdadeiro");
+        }
+
+        if(false || true){
+            System.out.println(" Falso ou Verdadeiro = Verdadeiro");
+        }
+
+        if(false || false){
+            System.out.println(" Falso ou Falso = Falso");
+        }
+
+
 
     }
 
