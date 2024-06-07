@@ -3,14 +3,19 @@ import br.senac.df.introducaopoo.humano.Humano;
 import br.senac.df.introducaopoo.partesDoCorpo.Braco;
 import br.senac.df.introducaopoo.partesDoCorpo.Mao;
 import br.senac.df.introducaopoo.partesDoCorpo.Olho;
+import calculadora.Calculadora;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-        intancias();
+        Calculadora calculadora = new Calculadora();
+        calculadora.somar(1,3);
 
+    }
+
+    private static void operadores() {
         //operadores
 
         //operador de atribuicao
@@ -104,8 +109,6 @@ public class Main {
         System.out.println("Decremento: " + --a);
         System.out.println("Incremento: " + a++);
         System.out.println("Decremento: " + a--);
-        
-
     }
 
     private static void intancias() {
